@@ -1,0 +1,129 @@
+:root {
+  --black: #000000;
+  --blue: #2196f3;
+  --grey: #757575;
+  --background: #2f303a;
+  --white: #ffffff;
+  --text: #212121;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.web {
+  color: var(--blue);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+
+.studio {
+  color: var(--black);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+
+.navigate a {
+  color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+}
+.navigate a:hover {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact a {
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact a:hover {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: var(--background);
+}
+
+.hero h1 {
+  font-size: 44px;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.button3 {
+  background: var(--blue);
+  color: var(--white);
+  text-decoration: none;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+.properties h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--black);
+}
+.properties p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.work h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text);
+}
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text);
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text);
+}
+.our-team p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--grey);
+}
+
+.studio2 {
+  color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+#footer {
+  background: var(--background);
+}
+.addres p {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.addres a {
+  color: var(--grey);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+#now-here {
+  color: var(--blue);
+}
