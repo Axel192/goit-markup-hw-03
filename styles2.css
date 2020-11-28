@@ -7,11 +7,60 @@
   --button-background: #f5f4fa;
   --button-text: #212121;
 }
-
+body {
+  margin-top: 0px;
+  box-sizing: border-box;
+}
 * {
   font-family: "Roboto", sans-serif;
 }
-
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  margin-bottom: 100px;
+}
+#header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.navigat li {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.navigat {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navigat li:last-child {
+  margin-right: 331px;
+}
+.navigat li:not(:last-child) {
+  margin-right: 50px;
+}
+.contact li {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contact {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contact li:first-child {
+  margin-right: 50px;
+}
 h1 {
   visibility: hidden;
   font-weight: 700;
@@ -61,7 +110,22 @@ ul {
   color: var(--blue);
   font-size: 14px;
 }
-
+.buttons li:last-child {
+  margin-right: 0px;
+}
+.buttons li {
+  margin-right: 8px;
+}
+.buttons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+h1 {
+  display: none;
+}
 .buttons button {
   background: var(--button-background);
   color: var(--button-text);
@@ -69,6 +133,8 @@ ul {
   border: none;
   font-weight: 500;
   font-size: 16px;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .buttons button:focus {
@@ -87,15 +153,42 @@ ul {
   font-weight: 500;
   font-size: 16px;
 }
+.works {
+  margin-top: 50px;
+}
+.works ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.works li {
+  margin: 0;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+}
+.works li:nth-child(3n + 1) {
+  margin: 0 30px 30px;
+}
+
 .examples h2 {
   color: var(--button-text);
   font-weight: 700;
   font-size: 18px;
+  margin-top: 20px;
+  padding-left: 24px;
+  margin-bottom: 0px;
 }
 .examples p {
   color: var(--grey);
   font-weight: 400;
   font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .studio2 {
@@ -118,5 +211,34 @@ ul {
   font-style: normal;
 }
 #footer {
+  margin-top: 92px;
   background-color: var(--footer);
+}
+
+.container {
+  width: 1200px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.addres p {
+  padding-bottom: 9px;
+  margin: 0;
+}
+
+.addres a:not(:last-child) {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.addres a:last-child {
+  display: inline-block;
+  margin-bottom: 60px;
 }
