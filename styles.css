@@ -142,8 +142,8 @@ h1 {
   color: var(--black);
   margin: 0;
   padding-bottom: 10px;
-}a
-.properties p {
+}
+a .properties p {
   font-weight: 400;
   font-size: 14px;
   color: var(--grey);
@@ -191,7 +191,7 @@ h1 {
 .our-team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: (var(--team);
+  background-color: var(--team);
 }
 .our-team li {
   outline: 1px solid var(--outline);
@@ -202,7 +202,6 @@ h1 {
   padding: 0;
   justify-content: center;
   margin: 0;
-
 }
 .our-team li:not(:last-child) {
   margin-right: 30px;
