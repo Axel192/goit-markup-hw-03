@@ -5,12 +5,19 @@
   --background: #2f303a;
   --white: #ffffff;
   --text: #212121;
+  --team: #f5f4fa;
+  --outline: #ececec;
 }
 body {
   margin: 0;
 }
 * {
   font-family: "Roboto", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
@@ -25,7 +32,7 @@ a {
   align-items: center;
 }
 .logo {
-  margin-right: 93px;
+  padding-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -99,7 +106,6 @@ h1 {
 }
 .hero {
   background: var(--background);
-  margin-bottom: 94px;
 }
 
 .hero h1 {
@@ -109,6 +115,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 30px;
 }
@@ -133,22 +140,24 @@ h1 {
   font-weight: 700;
   font-size: 14px;
   color: var(--black);
-  margin-top: 0;
-  margin-bottom: 10px;
-}
+  margin: 0;
+  padding-bottom: 10px;
+}a
 .properties p {
   font-weight: 400;
   font-size: 14px;
   color: var(--grey);
-
   margin: 0px;
+}
+.properties {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .properties ul {
   padding: 0;
   display: flex;
   align-content: center;
   margin: 0;
-  margin-bottom: 94px;
 }
 .properties li {
   width: 270px;
@@ -156,11 +165,14 @@ h1 {
 .properties li:not(:last-child) {
   margin-right: 30px;
 }
+.work {
+  padding-bottom: 94px;
+}
 .work h2 {
   display: flex;
   justify-content: center;
   margin: 0px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   color: var(--text);
@@ -170,10 +182,19 @@ h1 {
   display: flex;
   justify-content: center;
   padding: 0px;
-  margin-bottom: 188px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .work li:not(:last-child) {
   margin-right: 30px;
+}
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: (var(--team);
+}
+.our-team li {
+  outline: 1px solid var(--outline);
 }
 .our-team ul {
   display: flex;
@@ -181,7 +202,7 @@ h1 {
   padding: 0;
   justify-content: center;
   margin: 0;
-  margin-bottom: 94px;
+
 }
 .our-team li:not(:last-child) {
   margin-right: 30px;
@@ -190,7 +211,9 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   color: var(--text);
-  margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -209,6 +232,7 @@ h1 {
   color: var(--grey);
   margin: 0;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .studio2 {
@@ -257,7 +281,7 @@ h1 {
 
 .container {
   width: 1200px;
-  padding: 0 10px;
+  padding: 0 15px;
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
