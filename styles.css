@@ -19,6 +19,19 @@ body {
 *::after {
   box-sizing: border-box;
 }
+.head a {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+
 a {
   text-decoration: none;
 }
@@ -31,8 +44,8 @@ a {
   justify-content: center;
   align-items: center;
 }
-.logo {
-  padding-right: 93px;
+.logo > a {
+  margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -42,21 +55,14 @@ a {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .navigate li:not(:last-child) {
   margin-right: 50px;
-}
-.navigate li:last-child {
-  margin-right: 331px;
 }
 .contact {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .web {
   color: var(--blue);
@@ -85,6 +91,7 @@ a {
 }
 .contact li:first-child {
   margin-right: 50px;
+  margin-left: 331px;
 }
 .contact a {
   color: var(--grey);
@@ -106,6 +113,8 @@ h1 {
 }
 .hero {
   background: var(--background);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero h1 {
@@ -116,8 +125,7 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .order {
   background: var(--blue);
@@ -128,12 +136,9 @@ h1 {
   font-weight: 700;
   font-size: 16px;
   padding: 10px 32px;
-}
-.btn {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .properties h3 {
@@ -141,7 +146,7 @@ h1 {
   font-size: 14px;
   color: var(--black);
   margin: 0;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .properties p {
   font-weight: 400;

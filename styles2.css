@@ -33,15 +33,21 @@ body {
   justify-content: space-around;
   height: 80px;
 }
+
+.head a {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .head nav {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.logo {
+.logo > a {
   margin-right: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .navigat a {
   color: var(--black);
@@ -52,10 +58,7 @@ body {
   color: var(--blue);
   font-size: 14px;
 }
-.navigat li {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 .navigat {
   display: flex;
   padding: 0;
@@ -99,10 +102,7 @@ a {
   color: var(--blue);
   font-size: 14px;
 }
-.contact li {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 .contact {
   display: flex;
   padding: 0;
