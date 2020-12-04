@@ -125,7 +125,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 0px;
+  margin-left: 0;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -174,12 +174,16 @@ h1 {
   margin-bottom: 30px;
   outline: 1px solid #eeeeee;
 }
-.works li:nth-child(3n + 1) {
+.works li:nth-child(3n + 2) {
   margin: 0 30px 30px;
+}
+.works li:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 .wk {
   padding-top: 20px;
   padding-bottom: 20px;
+
   padding-right: 24px;
   padding-left: 24px;
 }
