@@ -28,10 +28,6 @@ body {
 }
 .head {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  height: 80px;
 }
 
 .head a {
@@ -65,9 +61,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
-.navigat li:last-child {
-  margin-right: 331px;
-}
+
 .navigat li:not(:last-child) {
   margin-right: 50px;
 }
@@ -106,9 +100,11 @@ a {
 .contact {
   display: flex;
   padding: 0;
+  margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .contact li:first-child {
   margin-right: 50px;
 }
@@ -123,7 +119,6 @@ h1 {
   margin-right: 8px;
 }
 .buttons {
-  padding-bottom: 50px;
   padding-top: 100px;
 }
 .buttons ul {
@@ -132,6 +127,7 @@ h1 {
   justify-content: center;
   margin-bottom: 0px;
   margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .buttons button {
@@ -181,13 +177,17 @@ h1 {
 .works li:nth-child(3n + 1) {
   margin: 0 30px 30px;
 }
-
+.wk {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
 .examples h2 {
   color: var(--button-text);
   font-weight: 700;
   font-size: 18px;
-  padding-top: 20px;
-  padding-left: 24px;
+
   margin-bottom: 0px;
   margin-top: 0;
 }
@@ -195,11 +195,8 @@ h1 {
   color: var(--grey);
   font-weight: 400;
   font-size: 16px;
-  padding-top: 4px;
+  margin-top: 4px;
   margin-bottom: 0px;
-  padding-left: 24px;
-  padding-bottom: 20px;
-  margin-top: 0;
 }
 
 .studio2 {
@@ -222,12 +219,14 @@ h1 {
   font-style: normal;
 }
 #footer {
-  background-color: var(--footer);
+  background: var(--footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .addres p {
@@ -239,11 +238,6 @@ h1 {
 .addres a:not(:last-child) {
   display: inline-block;
   margin-bottom: 9px;
-}
-
-.addres a:last-child {
-  display: inline-block;
-  margin-bottom: 60px;
 }
 
 .container {

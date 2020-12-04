@@ -19,17 +19,17 @@ body {
 *::after {
   box-sizing: border-box;
 }
+#now-here {
+  color: var(--blue);
+}
+.head {
+  display: flex;
+  align-items: center;
+}
 .head a {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-.head {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  height: 80px;
 }
 
 a {
@@ -61,9 +61,12 @@ a {
 }
 .contact {
   display: flex;
+  padding: 0;
+  margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .web {
   color: var(--blue);
   font-family: "Raleway", sans-serif;
@@ -86,12 +89,9 @@ a {
   font-weight: 500;
   font-size: 14px;
 }
-.contact {
-  padding-left: 0;
-}
+
 .contact li:first-child {
   margin-right: 50px;
-  margin-left: 331px;
 }
 .contact a {
   color: var(--grey);
@@ -177,7 +177,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   color: var(--text);
@@ -200,6 +200,7 @@ h1 {
 }
 .our-team li {
   outline: 1px solid var(--outline);
+  width: 270px;
 }
 .our-team ul {
   display: flex;
@@ -216,18 +217,20 @@ h1 {
   font-size: 36px;
   color: var(--text);
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 50px;
+
   display: flex;
   justify-content: center;
 }
 .our-team h3 {
-  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   color: var(--text);
   margin: 0;
   text-align: center;
+}
+.card-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .our-team p {
   padding-top: 10px;
@@ -236,7 +239,6 @@ h1 {
   color: var(--grey);
   margin: 0;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .studio2 {
@@ -246,6 +248,8 @@ h1 {
 }
 #footer {
   background: var(--background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .addres p {
   color: var(--white);
@@ -261,26 +265,19 @@ h1 {
   font-style: normal;
 }
 
-#now-here {
-  color: var(--blue);
-}
 .footer-logo {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 .addres p {
-  padding-bottom: 9px;
-  margin: 0;
+  display: flex;
+  margin-bottom: 9px;
+  margin-top: 0;
 }
 
 .addres a:not(:last-child) {
   display: inline-block;
   margin-bottom: 9px;
-}
-
-.addres a:last-child {
-  display: inline-block;
-  margin-bottom: 60px;
 }
 
 .container {
@@ -289,4 +286,8 @@ h1 {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+}
+
+img {
+  display: block;
 }

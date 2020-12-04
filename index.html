@@ -10,7 +10,8 @@
   rel="stylesheet">
 </head>
 <body>
-  <header id="header" class="container head">
+  <header id="header">
+    <div class="container head">
     <nav class="logo">
     <a href="#"><span class="web">Web</span><span class="studio">Studio</span></a>
     <ul class="navigate">
@@ -23,6 +24,7 @@
     <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
     <li><a href="callto:+380961111111">+38 096 111 11 11</a></li>
     </ul>
+    </div>
   </header>
   <main>
   <section class="hero">
@@ -74,28 +76,36 @@
     <ul>
       <li>
         <img src="images/im1.jpg" width="270" alt="Игорь">
+        <div class="card-text">
         <h3>Игорь Демьяненко</h3>
          <p>Product Designer</p>
+         </div>
       </li>
    
       <li>
         <img src="images/im2.jpg" width="270" alt="Ольга">
+        <div class="card-text">
         <h3>Ольга Репина</h3>
          <p>Frontend Developer</p> 
+         </div>
       </li>
  
    
       <li>
         <img src="images/im3.jpg" width="270" alt="Николай">
+        <div class="card-text">
         <h3>Николай Тарасов</h3>
        <p>Marketing</p> 
+       </div>
       </li>
 
     
       <li>
         <img src="images/im4.jpg" width="270" alt="Михаил">
-        <h3>Михаил Ермаков</h3>
+       <div class="card-text"> 
+         <h3>Михаил Ермаков</h3>
         <p>Designer</p> 
+        </div>
       </li>
     </ul>
   </section>
@@ -104,7 +114,7 @@
   </main>
   <footer id="footer">
     <div class="container">
-    <div class="footer-logo"><a href=""><span class="web">Web</span><span class="studio2">Studio</span></a></div>
+    <a href="" class="footer-logo"><span class="web">Web</span><span class="studio2">Studio</span></a>
     <address class="addres">
     <p>г. Киев, пр-т Леси Украинки, 26</p>
     <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
