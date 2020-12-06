@@ -119,7 +119,8 @@ h1 {
   margin-right: 8px;
 }
 .buttons {
-  padding-top: 100px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .buttons ul {
   display: flex;
@@ -157,9 +158,7 @@ h1 {
   font-weight: 500;
   font-size: 16px;
 }
-.works {
-  padding-bottom: 92px;
-}
+
 .works ul {
   display: flex;
   flex-wrap: wrap;
